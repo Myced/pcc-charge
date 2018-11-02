@@ -1,0 +1,23 @@
+{
+  "name": "pccbackend",
+  "version": "1.0.0",
+  "description": "A back end with nodejs to process stripe payments",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "stripe": "^6.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node inded.js"
+  },
+  "keywords": [
+    "Stripe"
+  ],
+  "author": "TN CED",
+  "license": "ISC"
+}
